@@ -2,7 +2,6 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'https://pdf-editor-whff.onrender.com';
-NEXT_PUBLIC_API_BASE_URL = 'https://pdf-editor-whff.onrender.com'
 
 const api = axios.create({
   baseURL: API_BASE_URL,
